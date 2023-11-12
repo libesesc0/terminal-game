@@ -66,7 +66,7 @@ class InputManager : public RawReader
 				(*runGamePtr) = false;
 		}
 	public:
-		bool LRUDS[5] = { false };
+		bool LRUDS[5] = { false }; // as in Left, Right, Up, Down, Shoot
 		bool * runGamePtr;
 };
 class Player : public GameObject
